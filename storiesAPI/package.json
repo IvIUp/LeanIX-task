@@ -1,0 +1,17 @@
+{
+  "name": "storiesapi",
+  "version": "1.0.0",
+  "description": "Scrape stories at www.cnet.com and create JSON that summarizes five latest stories.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scrape": "node pageController.js",
+    "server": "node server.js"
+  },
+  "author": "Stefan Ivanisevic",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "puppeteer": "^9.1.1"
+  }
+}
